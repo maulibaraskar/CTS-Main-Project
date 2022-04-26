@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="69.905902">
+<testcase classname="User LogIn" name="User LogIn scenario" time="50.532061">
+<system-out><![CDATA[Given User LogIn on BeCognizant.............................................passed
+And user enters username....................................................passed
+When clicks on next button..................................................passed
+And user enters password....................................................passed
+And user click on signIn button.............................................passed
+Then selects verify with call option........................................passed
+And clicks on sign button...................................................passed
+Then page title is BeCognizant..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User validation and Time sheet search" name="User validation" time="3.267137">
+<system-out><![CDATA[Given User should be on BeCognizant page....................................passed
+And user should have logIn successfully.....................................passed
+When click on search box....................................................passed
+And search for timesheet....................................................passed
+And select ESATimesheet.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Time sheet page" name="Time sheet validation" time="16.106704">
+<system-out><![CDATA[Given User should land on Timesheet page....................................passed
+And print latest three weeks................................................passed
+When validate current week..................................................passed
+And validate previous week..................................................passed
+And validate week before previous week......................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,356 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: mauli.baraskar@cognizant.com"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User LogIn scenario",
+        "description": "",
+        "id": "user-login;user-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7471596200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User LogIn on BeCognizant",
+            "match": {
+              "location": "LogInFeature.user_LogIn_on_BeCognizant()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3114074300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters username",
+            "match": {
+              "location": "LogInFeature.user_enters_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1427193700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on next button",
+            "match": {
+              "location": "LogInFeature.clicks_on_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309266200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters password",
+            "match": {
+              "location": "LogInFeature.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021586200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on signIn button",
+            "match": {
+              "location": "LogInFeature.user_click_on_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269689800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "selects verify with call option",
+            "match": {
+              "location": "LogInFeature.selects_verify_with_call_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36905602000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicks on sign button",
+            "match": {
+              "location": "LogInFeature.clicks_on_sign_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13052200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "page title is BeCognizant",
+            "match": {
+              "location": "LogInFeature.page_title_is_BeCognizant()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "User LogIn",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "aLogIn.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@tag"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: mauli.baraskar@cognizant.com"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User validation",
+        "description": "",
+        "id": "user-validation-and-time-sheet-search;user-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 232603900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be on BeCognizant page",
+            "match": {
+              "location": "HomePageFeature.user_should_be_on_BeCognizant_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 908338000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should have logIn successfully",
+            "match": {
+              "location": "HomePageFeature.user_should_have_logIn_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31903700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on search box",
+            "match": {
+              "location": "HomePageFeature.click_on_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234444200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "search for timesheet",
+            "match": {
+              "location": "HomePageFeature.search_for_timesheet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1859847100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select ESATimesheet",
+            "match": {
+              "location": "HomePageFeature.select_ESATimesheet()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "User validation and Time sheet search",
+    "description": "",
+    "id": "user-validation-and-time-sheet-search",
+    "keyword": "Feature",
+    "uri": "bHomePage.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@tag"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: mauli.baraskar@cognizant.com"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Time sheet validation",
+        "description": "",
+        "id": "time-sheet-page;time-sheet-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12831311300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on Timesheet page",
+            "match": {
+              "location": "TimeSheetFeature.user_should_land_on_Timesheet_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1387780800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "print latest three weeks",
+            "match": {
+              "location": "TimeSheetFeature.print_latest_three_weeks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate current week",
+            "match": {
+              "location": "TimeSheetFeature.validate_current_week()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate previous week",
+            "match": {
+              "location": "TimeSheetFeature.validate_previous_week()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 458900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate week before previous week",
+            "match": {
+              "location": "TimeSheetFeature.validate_week_before_previous_week()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1886021400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close browser",
+            "match": {
+              "location": "TimeSheetFeature.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 7,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Time sheet page",
+    "description": "",
+    "id": "time-sheet-page",
+    "keyword": "Feature",
+    "uri": "cTimeSheet.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@tag"
+      }
+    ]
+  }
+]
